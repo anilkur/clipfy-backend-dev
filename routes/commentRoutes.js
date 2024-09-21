@@ -1,6 +1,6 @@
 import express from "express";
 import {} from "../controllers/clipController.js";
-import protect from "../middleware/authMiddleware.js";
+import { protect } from "../middleware/authMiddleware.js";
 import { createComment, deleteComment, getCommentsByClipId, updateCommentsByClipId } from "../controllers/commentController.js";
 
 
